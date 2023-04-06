@@ -1,0 +1,66 @@
+.gridContainerCompras {
+    width: 80%;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.63);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 160px 50px auto 160px;
+    grid-template-areas: "header header header" "nav nav nav" "main main main" "footer footer footer";
+  }
+  
+  .padreProductos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .tarjetaProducto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3%;
+  }
+  
+  .imagenProducto{
+    height: 100%;
+    width: 100%;
+    border: outset 1px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+      height:100%;
+      width: 100%;
+    }
+  }
+  
+  .descripcionProducto{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 2%;
+
+    h2{
+        font-size: 20px;
+      }
+  }
+  
+  .botonProducto{
+    background-color: white;
+    color: black;
+    border: 2px solid #232423;
+    transition-duration: 0.4s;
+    padding: 5px 3px;
+    border-radius: 6px;
+  }
+  
+  .botonProducto:hover {
+    background-color: #191a19; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(71, 70, 70, 0.116), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }

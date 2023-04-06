@@ -1,0 +1,258 @@
+@media screen and (max-width: 1450px) {
+
+
+    ._mainContacto {
+        background-color: $colorGris;
+        grid-area: principal;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dondeEstamos {
+        width: 100%;
+    }
+
+    .contacto {
+        width: 50%;
+        height: 100%;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .gridContainerContrataciones {
+        width: 100%;
+        margin: 0 auto;
+        color: $colorNegro;
+        font-family: $fontLucida;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 160px 50px auto 160px;
+        grid-template-areas: "header"
+            "nav"
+            "principal"
+            "footer";
+    }
+
+    .gridContainer {
+        width: 100%;
+        margin: 0;
+        color: $colorNegro;
+        font-family: $fontLucida;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 160px 50px auto 160px;
+        grid-template-areas: "header header header"
+            "nav nav nav"
+            "main main main"
+            "footer footer footer";
+    }
+
+    .gridContainerContrataciones {
+        margin: 0 auto;
+        color: $colorNegro;
+        font-family: $fontLucida;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 160px 50px auto 160px;
+        grid-template-areas: "header"
+            "nav"
+            "principal"
+            "footer";
+    }
+
+    .gridContainerCompras {
+        width: 100%;
+        margin: 0 auto;
+        color: rgba(0, 0, 0, 0.63);
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 160px 50px auto 160px;
+        grid-template-areas: "header header header" "nav nav nav" "main main main" "footer footer footer";
+    }
+
+    iframe {
+        width: 450px;
+        height: 450px;
+    }
+
+    .card-Fotografo {
+        width: 70%;
+        border: outset 4px gray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .padre-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ._header {
+        background-color: rgba(113, 114, 116, 0.438);
+        grid-area: header;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gridContainer {
+        width: 100%;
+        margin: 0;
+        color: $colorNegro;
+        font-family: $fontLucida;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 160px 150px auto auto auto auto auto 160px;
+        grid-template-areas: "header"
+            "nav"
+            "main"
+            "main"
+            "main"
+            "main"
+            "main"
+            "footer";
+    }
+
+    .gridContainerContrataciones {
+        width: 100%;
+        margin: 0 auto;
+        color: $colorNegro;
+        font-family: $fontLucida;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 160px 150px auto 160px;
+        grid-template-areas:
+            "header"
+            "nav"
+            "principal"
+            "footer";
+    }
+
+    .gridContainerCompras {
+        width: 100%;
+        margin: 0 auto;
+        color: rgba(0, 0, 0, 0.63);
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 160px 150px auto 160px;
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "footer";
+    }
+
+    .padreProductos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dondeEstamos {
+        width: 100%;
+    }
+
+    .contacto {
+        width: 75%;
+        height: 100%;
+        padding: 30px;
+    }
+
+    ._nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        list-style: none;
+        height: 100%;
+        align-items: center;
+    }
+
+    .primero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .segundo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tercero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cuarto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trabajo1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trabajo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trabajo3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trabajo4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trabajo5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .separacion {
+        margin-top: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .imgIndex {
+        width: 80%;
+        height: 400px;
+    }
+
+    .centrar {
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    .padre-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

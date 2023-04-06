@@ -1,0 +1,29 @@
+.padre-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-Fotografo {
+    width: 30%;
+    border: outset 4px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.descFoto {
+    padding: 3px;
+}
+
+.card-Fotografo p {
+    padding: 5px;
+}

@@ -1,0 +1,52 @@
+.gridContainerContrataciones {
+    width: 80%;
+    margin: 0 auto;
+    color: $colorNegro;
+    font-family: $fontLucida;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 160px 50px auto 160px;
+    grid-template-areas: "header header"
+        "nav nav"
+        "principal principal"
+        "footer footer";
+}
+
+._mainContacto {
+    background-color: $colorGris;
+    grid-area: principal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dondeEstamos {
+    width: 50%;
+}
+
+.contacto {
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+}
+
+#formContacto fieldset {
+    margin-bottom: 60px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#txtMensaje {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+#Mensaje {
+    width: 300px;
+    height: 100px;
+}

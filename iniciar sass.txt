@@ -1,0 +1,6 @@
+1) npm init
+2) Muchos enters y despues "Yes"
+3) npm install -g sass
+4) tener instalada la carpeta sass
+5) sass --watch scss:css
+

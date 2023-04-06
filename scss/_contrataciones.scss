@@ -1,0 +1,58 @@
+.centrarForm {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+#formContrataciones fieldset {
+    margin-bottom: 60px;
+    padding: 10px;
+    border: 4px groove dimgrey;
+}
+
+span.alinearSpan {
+    display: inline-block;
+}
+
+#txtNombre {
+    margin-top: 15px;
+}
+
+#txtApellido {
+    margin-top: 15px;
+}
+
+#txtDireccion {
+    margin-top: 15px;
+}
+
+#txtNumero {
+    margin-top: 15px;
+}
+
+#txtPais {
+    margin-top: 15px;
+}
+
+.selectsContrataciones {
+    height: 27px;
+    width: 200px;
+}
+
+#txtSexo {
+    margin-top: 15px;
+}
+
+#txtTelefono {
+    margin-top: 15px;
+}
+
+#btnEnviar {
+    margin-top: 15px;
+}
+
+.btnEstilo {
+    height: 27px;
+    width: 100px;
+}
