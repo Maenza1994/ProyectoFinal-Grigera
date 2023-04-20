@@ -19,8 +19,7 @@
 </head>
 
 <body>
-    <!-- <div class="gridContainerCompras"> -->
-    <div>
+    <div class="gridContainerCompras">
         <header class="_header">
             <a href="../index.html"><img src="../images/ECDF.png" alt="Logo ECDF" class="logo"></a>
             <h1>El Club del Fotográfo</h1>
@@ -36,133 +35,57 @@
             </ul>
         </nav>
 
-        <!-- <main class="_main">
+        <main class="_main">
             <form>
-                <div class="padreProductos">
-                    <div class="tarjetaProducto">
-                        <div class="imagenProducto">
-                            <img src="../images/CamaraCanon.jpg" alt="camaraCanon">
-                        </div>
-                        <div class="descripcionProducto">
-                            <div class="nombreProducto">
-                                <h2 class="descFoto">Camara Canon</h2>
-                            </div>
-                            <div class="precioProducto">
-                                <h2 class="descFoto">$165.000</h2>
-                            </div>
-                        </div>
-                        <div class="areaBotonProducto">
-                            <button type="button" class="botonProducto" onclick="apretarBoton()">Agregar Producto</button>
-                        </div>
-                    </div>   
-                    <div class="tarjetaProducto">
-                        <div class="imagenProducto">
-                            <img src="../images/CamaraNikon.jpg" alt="CamaraNikon">
-                        </div>
-                        <div class="descripcionProducto">
-                            <div class="nombreProducto">
-                                <h2 class="descFoto">Camara Nikon</h2>
-                            </div>
-                            <div class="precioProducto">
-                                <h2 class="descFoto">$135.960</h2>
-                            </div>
-                        </div>
-                        <div class="areaBotonProducto">
-                            <button type="button" class="botonProducto" onclick="apretarBoton()">Agregar Producto</button>
-                        </div>
-                    </div>
-                    <div class="tarjetaProducto">
-                        <div class="imagenProducto">
-                            <img src="../images/SoporteCanon.jpg" alt="SoporteCanon">
-                        </div>
-                        <div class="descripcionProducto">
-                            <div class="nombreProducto">
-                                <h2 class="descFoto">Soporte Canon</h2>
-                            </div>
-                            <div class="precioProducto">
-                                <h2 class="descFoto">$27.055</h2>
-                            </div>
-                        </div>
-                        <div class="areaBotonProducto">
-                            <button type="button" class="botonProducto" onclick="apretarBoton()">Agregar Producto</button>
-                        </div>
-                    </div>
-                    <div class="tarjetaProducto">
-                        <div class="imagenProducto">
-                            <img src="../images/SoporteNikon.jpg" alt="SoporteNikon">
-                        </div>
-                        <div class="descripcionProducto">
-                            <div class="nombreProducto">
-                                <h2 class="descFoto">Soporte Nikon</h2>
-                            </div>
-                            <div class="precioProducto">
-                                <h2 class="descFoto">$19.000</h2>
-                            </div>
-                        </div>
-                        <div class="areaBotonProducto">
-                            <button type="button" class="botonProducto" onclick="apretarBoton()">Agregar Producto</button>
-                        </div>
-                    </div>
-                    <div class="tarjetaProducto">
-                        <div class="imagenProducto">
-                            <img src="../images/MemoriaSD.jpg" alt="MemoriaSD">
-                        </div>
-                        <div class="descripcionProducto">
-                            <div class="nombreProducto">
-                                <h2 class="descFoto">Memoria SD</h2>
-                            </div>
-                            <div class="precioProducto">
-                                <h2 class="descFoto">$37.000</h2>
-                            </div>
-                        </div>
-                        <div class="areaBotonProducto">
-                            <button type="button" class="botonProducto" onclick="apretarBotonDos()">Agregar Producto</button>
-                        </div>
-                    </div>           
-                </div>
+                <div class="Productos">
+                    <aside class="_filtros">
+                        <hr>
+                        <h2>Filtrar Productos</h2>
+                        <label for="filtroNombre">Nombre:</label>
+                        <input type="text" value="" id="filtroNombre" placeholder="Ingrese al menos 3 letras"><br>
+
+                        <label for="filtroDesde">Desde:</label>
+                        <input type="text" value="" name="filtroDesde" id="filtroDesde"
+                            placeholder="Ingrese precio mínimo"><br>
+
+                        <label for="filtroHasta">Hasta:</label>
+                        <input type="text" value="" name="filtroHasta" id="filtroHasta"
+                            placeholder="Ingrese precio máximo"><br>
+
+                        <button type="button" class="botonProducto" id="btnFiltrar">Filtrar</button>
+
+                        <hr>
+                        <h2>Agregar Productos</h2>
+                        <label for="agregarNombre">Nombre:</label>
+                        <input type="text" value="" name="agregarNombre" id="agregarNombre"
+                            placeholder="Ingrese nombre producto"><br>
+
+                        <label for="agregarPrecio">Precio:</label>
+                        <input type="text" value="" name="agregarPrecio" id="agregarPrecio"
+                            placeholder="Ingrese precio producto"><br>
+
+                        <button type="button" class="botonProducto" id="btnAgregar">Agregar</button>
+
+                        <hr>
+                        <h2>Guardar Local</h2>
+                        <button type="button" class="botonProducto" id="btnGuardarLocal">Guardar</button>
+
+                        <hr>
+                        <h2>Guardar Local</h2>
+                        <button type="button" class="botonProducto" id="btnRecuperarLocal">Recuperar</button>
+                    </aside>
             </form>
-        </main>    -->
 
-        <h1 id="titulo"><span>2da PreEntrega Grigera</span></h1>
-        <h2 id="secundario">Filtro del producto</h2>
-        <hp>Ingresar los campos y presionar en "Agregar". Sino, completar el campo nombre y presionar
-            "Buscar"</p>
+            <div class="padreProductos _padreProductos">
 
-            <div>
-                <div>
-                    <input type="text" id="nombre" placeholder="Nombre" />
-                    <input type="text" id="precio" placeholder="Precio" />
-                    <input type="text" id="cantidad" placeholder="Cantidad" />
-                </div>
-
-                <div>
-                    <h2>Productos</h2>
-                    <ul id="productos">
-                        <!-- Contenido dinámico -->
-                    </ul>
-                </div>
-
-                <div>
-                    <button type="button" class="botonProducto" onclick="botonAgregar()">Agregar</button>
-                </div>
-
-                <div>
-                    <button type="button" class="botonProducto" onclick="botonBuscar()">Buscar</button>
-                </div>
             </div>
-
-
-
-
-
-
-
-
-            <!-- <footer class="_footer">
-            <p class="disclaimer">&copy; El club del Fotógrafo. Todos los derechos reservados.</p>
-        </footer> -->
     </div>
-
+    </form>
+    </main>
+    <footer class="_footer">
+        <p class="disclaimer">&copy; El club del Fotógrafo. Todos los derechos reservados.</p>
+    </footer>
+    </div>
     <script src="../JS/script.js"></script>
 
 </body>

@@ -1,6 +1,5 @@
 @media screen and (max-width: 1450px) {
 
-
     ._mainContacto {
         background-color: $colorGris;
         grid-area: principal;
@@ -152,6 +151,11 @@
             "nav"
             "main"
             "footer";
+    }
+
+    .Productos {
+        display: flex;
+        flex-direction: column;
     }
 
     .padreProductos {

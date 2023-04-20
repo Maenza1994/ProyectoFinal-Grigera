@@ -233,9 +233,21 @@ span.alinearSpan {
   grid-template-areas: "header header header" "nav nav nav" "main main main" "footer footer footer";
 }
 
+.Productos {
+  display: grid;
+  grid-template-columns: 33% 67%;
+}
+
 .padreProductos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 50% 50%;
+}
+
+._filtros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
 }
 
 .tarjetaProducto {
@@ -245,6 +257,8 @@ span.alinearSpan {
   justify-content: center;
   text-align: center;
   padding: 3%;
+  height: 100%;
+  width: 100%;
 }
 
 .imagenProducto {
@@ -428,6 +442,10 @@ img {
     grid-template-columns: 1fr;
     grid-template-rows: 160px 150px auto 160px;
     grid-template-areas: "header" "nav" "main" "footer";
+  }
+  .Productos {
+    display: flex;
+    flex-direction: column;
   }
   .padreProductos {
     display: flex;
