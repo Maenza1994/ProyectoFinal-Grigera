@@ -9,7 +9,7 @@
     <meta name="description"
         content="Para que te enteres de que tipos de trabajo hacemos en el club del fotografo y que puedes lograr.">
 
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
@@ -67,16 +67,16 @@
                         <button type="button" class="botonProducto" id="btnAgregar">Agregar</button>
 
                         <hr>
-                        <h2>Guardar Local</h2>
+                        <h2>Guardar Localmente</h2>
                         <button type="button" class="botonProducto" id="btnGuardarLocal">Guardar</button>
 
                         <hr>
-                        <h2>Guardar Local</h2>
+                        <h2>Recuperar Localmente</h2>
                         <button type="button" class="botonProducto" id="btnRecuperarLocal">Recuperar</button>
                     </aside>
             </form>
 
-            <div class="padreProductos _padreProductos">
+            <div class="padreProductos _padreProductos" id="losProductos">
 
             </div>
     </div>
@@ -86,8 +86,10 @@
         <p class="disclaimer">&copy; El club del Fotógrafo. Todos los derechos reservados.</p>
     </footer>
     </div>
-    <script src="../JS/script.js"></script>
-
+    
+    <script type="text/javascript" src="../JS/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

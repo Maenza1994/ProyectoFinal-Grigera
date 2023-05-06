@@ -1,0 +1,11 @@
+[
+    {"id":1,"nombre":"camara canon","precio":165000,"imagen":"camara canon"},
+    {"id":2,"nombre":"camara nikon","precio":135960,"imagen":"camara nikon"},
+    {"id":3,"nombre":"soporte canon","precio":27055,"imagen":"soporte canon"},
+    {"id":4,"nombre":"soporte nikon","precio":19000,"imagen":"soporte nikon"},
+    {"id":5,"nombre":"memoria sd","precio":37000,"imagen":"memoria sd"},
+    {"id":6,"nombre":"baterias nikon","precio":19000,"imagen":"baterias nikon"},
+    {"id":7,"nombre":"baterias sony","precio":21000,"imagen":"baterias sony"},
+    {"id":8,"nombre":"camara sony","precio":180650,"imagen":"camara sony"},
+    {"id":9,"nombre":"gimball","precio":101000,"imagen":"gimball"}
+]
